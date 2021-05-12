@@ -148,6 +148,7 @@ Duration of "loop[0]->loop[5]": 5.01 seconds
 │ loop        │            2 │     5.01 seconds │ 135384.873706028 │ 135389.8791503 │
 └─────────────┴──────────────┴──────────────────┴──────────────────┴────────────────┘
 
+
 ### Custom formatting placeholders:
     - `name`: name of a measurement eg. "a"
     - `name_range`: name of a measurement followed by time point comparison range eg. "a[992]->a[993]"
