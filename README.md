@@ -150,13 +150,13 @@ Duration of "loop[0]->loop[5]": 5.01 seconds
 ```
 
 ### Custom formatting placeholders:
-    - `name`: name of a measurement eg. "a"
-    - `name_range`: name of a measurement followed by time point comparison range eg. "a[992]->a[993]"
-    - `duration`: duration beetween last measured time point and the one set as current comparison point eg. "0.36081594599818345"
-    - `humanized_duration`: humanized duration beetween last measured time point and the one set as current comparison point eg. "6 minutes and 47.53 seconds"
-    - `hduration`: the same as `humanized_duration`
-    - `idx_a`: integer number of index for time point against which we make a comparison
-    - `idx_b`: integer number of index for last time point
+- `name`: name of a measurement eg. "a"
+- `name_range`: name of a measurement followed by time point comparison range eg. "a[992]->a[993]"
+- `duration`: duration beetween last measured time point and the one set as current comparison point eg. "0.36081594599818345"
+- `humanized_duration`: humanized duration beetween last measured time point and the one set as current comparison point eg. "6 minutes and 47.53 seconds"
+- `hduration`: the same as `humanized_duration`
+- `idx_a`: integer number of index for time point against which we make a comparison
+- `idx_b`: integer number of index for last time point
 
 For example:
 
@@ -216,5 +216,5 @@ Stage 2 of building process: 1 second
 ```
 
 ### Other APIs:
-    - `Measure.delete('a')` -> delete 'a' measurement
-    - `Measure.clear()` -> clear all measurements
+- `Measure.delete('a')` -> delete 'a' measurement
+- `Measure.clear()` -> clear all measurements
